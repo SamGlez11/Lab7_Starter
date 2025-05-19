@@ -1,3 +1,5 @@
+Samuel I. Gonzalez - A17788739 - No partner :(
+
 1) Where would you fit your automated tests in your Recipe project development pipeline? Select one of the following and explain why.
 
 Automated tests should ideally run **every time code is pushed** (aka: **1. Within a Github action that runs whenever code is pushed**) to catch issues early and to make sure projects remain stable. Integrating these tests into a GitHub Action, or any CI pipeline, will allow developers to detect bugs or features that shouldn't be implemented as soon as new code is added, prevent "bad" code from being merged into the main branch, and ensure tests run consistently across different environments (rather than just running tests locally and relying on individual developers). This practice supports Continuous Integration (CI) and helps maintain code quality throughout the development lifecycle.
